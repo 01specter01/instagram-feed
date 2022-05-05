@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 15% 15% 0% 30%;
+    background-color: #fafafa;
+}
+
+div {
+    width: 25%;
+    aspect-ratio: 1;
+    background-size: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+div:first-of-type {
+    background-image: url("https://images.unsplash.com/photo-1648588183934-69ee4d15fc48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1144&q=80");
+}
+div:nth-child(2) {
+    background-image: url("https://images.unsplash.com/photo-1550827783-07a572d03390?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
+}
+div:nth-child(3) {
+    background-image: url("https://images.unsplash.com/photo-1532080511667-3d838e8d2b55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=826&q=80");
+}
+
+div:nth-child(4) {
+    background-image: url("https://images.unsplash.com/photo-1519230219494-fbcb712af4c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80");
+}
+div:nth-child(5) {
+    background-image: url("https://images.unsplash.com/photo-1528810084506-41bd091551af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80");
+}
+div:nth-child(6) {
+    background-image: url("https://images.unsplash.com/photo-1508231446074-fdd3a1c51d53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80");
+}
+div:nth-child(7) {
+    background-image: url("https://images.unsplash.com/photo-1533762699253-a11b5ea979d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=901&q=80");
+}
+div:nth-child(8) {
+    background-image: url("https://images.unsplash.com/photo-1481026469463-66327c86e544?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=908&q=80");
+}
+div:last-of-type {
+    background-image: url("https://images.unsplash.com/photo-1562736171-895cefb6a161?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80");
+}
